@@ -65,6 +65,7 @@ UNIX> ./replay_inject data.bin replay.dem [position]
 
 ### Windows
 **Method 1:** Get Visual Studio, make a new project, and drag these files in. Add `_CRT_SECURE_NO_WARNINGS` to the **Preprocessor Definitions**, and compile.
+
 **Method 2:** I'm a nice person, and I have compiled them for you. They are in the `bin/` directory.
 
 ### Linux, Mac, etc.
