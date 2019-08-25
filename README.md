@@ -14,7 +14,7 @@ There are three here:
 
 * **replay\_dump** - When given a `data.bin` file, it will dump all replays
 as `YYYYMMDD_HHMM.dem` files (e.g. a replay from 2019/08/24 @ 22:24 would be
-named as `20190824_2224.dem`.
+named as `20190824_2224.dem`).
 
 * **replay\_wipe** - When given a `data.bin` file, it will zero out all bytes
 that store replay information, swiftly deleting all replays. You should use
@@ -60,3 +60,12 @@ UNIX> ./replay_wipe data.bin
 ```bash
 UNIX> ./replay_inject data.bin replay.dem [position]
 ```
+
+## Compilation
+
+### Windows
+**Method 1:** Get Visual Studio, make a new project, and drag these files in. Add `_CRT_SECURE_NO_WARNINGS` to the **Preprocessor Definitions**, and compile.
+**Method 2:** I'm a nice person, and I have compiled them for you. They are in the `bin/` directory.
+
+### Linux, Mac, etc.
+Run `make`.
