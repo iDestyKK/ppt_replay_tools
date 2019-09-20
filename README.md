@@ -1,6 +1,8 @@
 # Puyo Puyo Tetris Replay Tools
 *A set of command line tools for handling replays.*
 
+**NOTE**: This repo is outdated (for Windows users at least). I'm keeping it here in case someone on another platform wants to compile and use it on Linux, Mac, etc. Check out [CN\_PPTRM](https://github.com/iDestyKK/CN_PPTRM) for a newer tool with a GUI.
+
 ## Synopsis
 Puyo Puyo Tetris got a PC port in 2018. However, the replay limit was still
 restricted to 50 replays. Fortunately, these are stored locally in a file
